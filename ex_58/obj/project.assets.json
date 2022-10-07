@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": []
+  },
+  "packageFolders": {
+    "/Users/user/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/ex_58.csproj",
+      "projectName": "ex_58",
+      "projectPath": "/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/ex_58.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/user/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

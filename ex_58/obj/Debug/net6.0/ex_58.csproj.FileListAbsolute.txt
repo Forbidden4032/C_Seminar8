@@ -1,0 +1,15 @@
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/bin/Debug/net6.0/ex_58
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/bin/Debug/net6.0/ex_58.deps.json
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/bin/Debug/net6.0/ex_58.runtimeconfig.json
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/bin/Debug/net6.0/ex_58.dll
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/bin/Debug/net6.0/ex_58.pdb
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/ex_58.csproj.AssemblyReference.cache
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/ex_58.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/ex_58.AssemblyInfoInputs.cache
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/ex_58.AssemblyInfo.cs
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/ex_58.csproj.CoreCompileInputs.cache
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/ex_58.dll
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/refint/ex_58.dll
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/ex_58.pdb
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/ex_58.genruntimeconfig.cache
+/Volumes/Macintosh HD/VScode/c_sharp/homework_8/ex_58/obj/Debug/net6.0/ref/ex_58.dll
