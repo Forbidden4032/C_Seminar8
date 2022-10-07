@@ -1,4 +1,5 @@
-﻿// Задача 58: Задайте две матрицы. Напишите программу, 
+﻿
+// Задача 58: Задайте две матрицы. Напишите программу, 
 // которая будет находить произведение двух матриц.
 
 void Array(int[,] array)
@@ -24,32 +25,32 @@ void Print(int[,] array)
     }
 }
 
-int[,] matrica1 = new int[3, 2];
-int[,] matrica2 = new int[2, 3];
-int[,] matrica3 = new int[Math.Max(matrica1.GetLength(0), matrica2.GetLength(0)),
-                         Math.Max(matrica1.GetLength(1), matrica2.GetLength(1))];
-Array(matrica1);
-Array(matrica2);
-Print(matrica1);
+int[,] mat1 = new int[3, 2];
+int[,] mat2 = new int[2, 3];
+int[,] mat3 = new int[Math.Max(mat1.GetLength(0), mat2.GetLength(0)),
+                         Math.Max(mat1.GetLength(1), mat2.GetLength(1))];
+Array(mat1);
+Array(mat2);
+Print(mat1);
 Console.WriteLine();
-Print(matrica2);
+Print(mat2);
 Console.WriteLine();
 
-if (matrica1.GetLength(1) != matrica2.GetLength(0))
+if (mat1.GetLength(1) != mat2.GetLength(0))
 {
-    Console.WriteLine("Матрицы не перемножаются!");
+    Console.WriteLine("Матрицы нельзя перемножить");
 }
 else
 {
-    for (int i = 0; i < matrica3.GetLength(0); i++)
+    for (int i = 0; i < mat3.GetLength(0); i++)
     {
-        for (int j = 0; j < matrica3.GetLength(1); j++)
+        for (int j = 0; j < mat3.GetLength(1); j++)
         {
-            for (int k = 0; k < matrica1.GetLength(1); k++)
+            for (int k = 0; k < mat1.GetLength(1); k++)
             {
-                matrica3[i,j] += matrica1[i, k] * matrica2[k, j];
+                mat3[i,j] += mat1[i, k] * mat2[k, j];
             }
         }
     }
-    Print(matrica3);
+    Print(mat3);
 }
