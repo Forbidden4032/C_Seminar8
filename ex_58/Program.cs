@@ -24,32 +24,32 @@ void Print(int[,] array)
     }
 }
 
-int[,] matrix1 = new int[3, 2];
-int[,] matrix2 = new int[2, 3];
-int[,] matrix3 = new int[Math.Max(matrix1.GetLength(0), matrix2.GetLength(0)),
-                         Math.Max(matrix1.GetLength(1), matrix2.GetLength(1))];
-Array(matrix1);
-Array(matrix2);
-Print(matrix1);
+int[,] matrica1 = new int[3, 2];
+int[,] matrica2 = new int[2, 3];
+int[,] matrica3 = new int[Math.Max(matrica1.GetLength(0), matrica2.GetLength(0)),
+                         Math.Max(matrica1.GetLength(1), matrica2.GetLength(1))];
+Array(matrica1);
+Array(matrica2);
+Print(matrica1);
 Console.WriteLine();
-Print(matrix2);
+Print(matrica2);
 Console.WriteLine();
 
-if (matrix1.GetLength(1) != matrix2.GetLength(0))
+if (matrica1.GetLength(1) != matrica2.GetLength(0))
 {
-    Console.WriteLine("Такие матрицы нельзя перемножить, так как количество столбцов первой матрицы не равно количеству строк второй матрицы");
+    Console.WriteLine("Матрицы не перемножаются!");
 }
 else
 {
-    for (int i = 0; i < matrix3.GetLength(0); i++)
+    for (int i = 0; i < matrica3.GetLength(0); i++)
     {
-        for (int j = 0; j < matrix3.GetLength(1); j++)
+        for (int j = 0; j < matrica3.GetLength(1); j++)
         {
-            for (int k = 0; k < matrix1.GetLength(1); k++)
+            for (int k = 0; k < matrica1.GetLength(1); k++)
             {
-                matrix3[i,j] += matrix1[i, k] * matrix2[k, j];
+                matrica3[i,j] += matrica1[i, k] * matrica2[k, j];
             }
         }
     }
-    Print(matrix3);
+    Print(matrica3);
 }
